@@ -80,7 +80,11 @@ z-index: 3;
 
 /* layout 4 end  */
 
-/* layout-6 start  */
+/* layout-6 start */
+.card {
+  overflow: hidden; /* important: image zoom card ke andar hi rahe */
+}
+
 .card-img-top {
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
@@ -89,7 +93,16 @@ z-index: 3;
   transform: scale(1.08);
   opacity: 0.85;
 }
-/* layout-6 end  */
+
+.card-body-hover:hover {
+  background-color: rgba(189, 188, 188, 0.525);
+}
+
+.card-text-hover:hover {
+  color: red;
+}
+/* layout-6 end */
+
 
 
 /* layout-2 & 3 responsive start  */
