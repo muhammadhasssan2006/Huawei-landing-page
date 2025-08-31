@@ -82,7 +82,7 @@ z-index: 3;
 
 /* layout-6 start */
 .card {
-  overflow: hidden; /* important: image zoom card ke andar hi rahe */
+  overflow: hidden; 
 }
 
 .card-img-top {
